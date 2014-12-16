@@ -32,10 +32,10 @@ import java.util.Observable;
 
 public class Application extends android.app.Application {
 
-    public static final String TAG = "ToDoLite";
-    private static final String DATABASE_NAME = "licianclub";
-    private static final String SYNC_URL_HTTP = "http://192.168.3.56:7984/";
-    private static final String SYNC_URL_HTTPS = "https://demo-mobile.couchbase.com/todolite/";
+    public static final String TAG = "Lician Club Management";
+    private static final String DATABASE_NAME = "club";
+    private static final String SYNC_URL_HTTP = "http://91.123.200.21:7984/club";
+    private static final String SYNC_URL_HTTPS = "https://91.123.200.21:7985/club";
     private static final String SYNC_URL = SYNC_URL_HTTP;
 
     private static final String PREF_CURRENT_LIST_ID = "CurrentListId";
